@@ -11,7 +11,7 @@ The most important test for the Stylus website is **to buy a product**.
 I've applied the TestRail platform to create a test case.
 <br>[Click here to see test-case](https://drive.google.com/file/d/1D9ckkmAYkH7jf7xbMTadAyEhBEpQi70T/view)
 
-## 📚Teste plan and test strategy:
+## 📚Test plan and test strategy:
 
 [Click here to see test plan](https://drive.google.com/file/d/136Z4VaW9KmiEJP04OtbFUeM_-9wAUCXr/view)
 <br>[Click here to see test strategy](https://drive.google.com/file/d/14M6EQNSPbITnGZjFQcYwwMapdN2osdOK/view)
@@ -36,7 +36,7 @@ I've applied the TestRail platform to create a test case.
 - 6.In package "utils", in class "Constants" create user data constants.
 - 7.In package "utils", in class "UtilsMethod" create method that reads values from the configuration file. 
 - 8.Create configuration file "config.properties" in package "resources".
-- 9.Make popup separated in package "components".
+- 9.Make pop-up separated in package "components".
 - 10.In class "Helper" there is method, which select value from dropdown payment list.
 - 11.In package "dto", in class "AddPersonData", create person data and use it in main test.
 - 12.Create "CreateOrderTest" to run the test.
