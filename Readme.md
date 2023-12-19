@@ -19,10 +19,11 @@ I've applied the TestRail platform to create a test case.
 
 ## 📢I've applied:
 
-- Selenide, Maven, TestNG, assertJ, Lombok, log4j.
+- Selenide, Maven, TestNG, assertJ, Lombok.
 - Pattern - Page Object (breaking down into **_pages_** and **_locators_**).
 - Assertions using **_assertJ_** library.
 - Properties to identify user data.
+- Random Generator to generate payment types and street names.
 - I've created an optimal test coverage that covers the maximum number of test cases.
 
 ## 💡Creating process:
@@ -36,8 +37,8 @@ I've applied the TestRail platform to create a test case.
 - 7.In package "utils", in class "UtilsMethod" create method that reads values from the configuration file. 
 - 8.Create configuration file "config.properties" in package "resources".
 - 9.Make popup separated in package "components".
-- 10.Make class "DataHendler" to remove hyphens and commas in "verifyOrderCreated" method.
+- 10.Make class "DataHandler" to remove hyphens and commas in "verifyOrderCreated" method.
 - 11.In class "Helper" there is method, which select value from dropdown payment list.
-- 12.In package "dto", in class "AddPersonData", create peson data and use it in main test.
+- 12.In package "dto", in class "AddPersonData", create person data and use it in main test.
 - 13.Create "CreateOrderTest" to run the test.
 - 14.In "CheckoutPage" create method, which verify that order has been created.
