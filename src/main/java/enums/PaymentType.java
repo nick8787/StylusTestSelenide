@@ -6,7 +6,7 @@ import lombok.RequiredArgsConstructor;
 @Getter
 @RequiredArgsConstructor
 public enum PaymentType {
-    CRYPTO_CURRANCY_PAYMENT("Оплата криптовалютою"),
+    CRYPTO_CURRENCY_PAYMENT("Оплата криптовалютою"),
     CASH_ON_DELIVERY_PAYMENT("Готівкою при отриманні"),
     THREE_PARTS_PRIVATBANK_PAYMENT("Оплата 3 частинами від ПриватБанку"),
     SIX_PARTS_SPORTBANK_PAYMENT("Оплата 6 частинами від Sportbank"),

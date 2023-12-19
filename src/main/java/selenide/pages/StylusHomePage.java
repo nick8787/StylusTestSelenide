@@ -2,14 +2,13 @@ package selenide.pages;
 
 import com.codeborne.selenide.Selenide;
 import selenide.components.LoginPopup;
-import selenide.locators.ProfileLocators;
 import selenide.locators.HomePageLocators;
 import utils.Constants;
 
 import static com.codeborne.selenide.Selenide.$x;
 
 public class StylusHomePage {
-    LoginPopup loginPopup = this.openAutorization();
+    LoginPopup loginPopup = this.openAuthorization();
 
     public StylusHomePage open(){
         Selenide.open(Constants.BASE_URL);
@@ -21,14 +20,14 @@ public class StylusHomePage {
         return this;
     }
 
-    public LoginPopup openAutorization(){
+    public LoginPopup openAuthorization(){
         $x(HomePageLocators.LOGIN_PROFILE_BTN_XPATH).click();
         return new LoginPopup();
     }
 
     public ProfilePage authorizeUser(String email, String password){
         chooseLanguage();
-        openAutorization();
+        openAuthorization();
 
         loginPopup.setLogin(email)
                   .setPassword(password)

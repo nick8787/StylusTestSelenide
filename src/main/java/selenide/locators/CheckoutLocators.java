@@ -8,8 +8,8 @@ public class CheckoutLocators {
     public static final String ACCEPT_ORDER_BTN_XPATH = "//div[@class='checkout-action-block']//button[@type='submit']";
     public static final String THANK_FOR_ORDER_HEADER_XPATH = "//h1[text()='Дякуємо! Ваша заявка прийнята']";
     public static final String ADDRESS_INFO_BLOCK_XPATH = "//div[@class='address-block-info']";
-    private static final String latopTitleBlockPatternXpath = "//div[@class='name-block']//a[@title='%s']";
+    private static final String laptopTitleBlockPatternXpath = "//div[@class='name-block']//a[@title='%s']";
     public static String getLaptopTitleXpath(String title){
-        return String.format(latopTitleBlockPatternXpath, title);
+        return String.format(laptopTitleBlockPatternXpath, title);
     }
 }

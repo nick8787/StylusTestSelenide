@@ -37,8 +37,7 @@ I've applied the TestRail platform to create a test case.
 - 7.In package "utils", in class "UtilsMethod" create method that reads values from the configuration file. 
 - 8.Create configuration file "config.properties" in package "resources".
 - 9.Make popup separated in package "components".
-- 10.Make class "DataHandler" to remove hyphens and commas in "verifyOrderCreated" method.
-- 11.In class "Helper" there is method, which select value from dropdown payment list.
-- 12.In package "dto", in class "AddPersonData", create person data and use it in main test.
-- 13.Create "CreateOrderTest" to run the test.
-- 14.In "CheckoutPage" create method, which verify that order has been created.
+- 10.In class "Helper" there is method, which select value from dropdown payment list.
+- 11.In package "dto", in class "AddPersonData", create person data and use it in main test.
+- 12.Create "CreateOrderTest" to run the test.
+- 13.In "CheckoutPage" create method, which verify that order has been created.
