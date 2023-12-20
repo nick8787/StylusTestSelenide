@@ -28,8 +28,8 @@ public class CheckoutPage {
         return this;
     }
 
-    public CheckoutPage setPhoneNumber(String phonenumber){
-        $x(CheckoutLocators.PHONE_NUMBER_FIELD_XPATH).sendKeys(phonenumber);
+    public CheckoutPage setPhoneNumber(String phoneNumber){
+        $x(CheckoutLocators.PHONE_NUMBER_FIELD_XPATH).sendKeys(phoneNumber);
         return this;
     }
 

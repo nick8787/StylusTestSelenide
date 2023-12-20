@@ -38,6 +38,6 @@ I've applied the TestRail platform to create a test case.
 - 8.Create configuration file "config.properties" in package "resources".
 - 9.Make pop-up separated in package "components".
 - 10.In class "Helper" there is method, which select value from dropdown payment list.
-- 11.In package "dto", in class "AddPersonData", create person data and use it in main test.
+- 11.In package "dto", in class "AddPersonData", create user data and use it in main test.
 - 12.Create "CreateOrderTest" to run the test.
 - 13.In "CheckoutPage" create method, which verify that order has been created.
